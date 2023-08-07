@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import asyncio
 from typing import List
 from 0-basic_async_syntax import task_wait_random
