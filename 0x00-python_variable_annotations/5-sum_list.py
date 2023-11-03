@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
-
+"""
+    List of floats annotations
+"""
 from typing import List
-
-""" Complex types - list of floats. """
 
 
 def sum_list(input_list: List[float]) -> float:
-    """This function takes a list input_list of
-        floats as argument and returns their sum as a float.
     """
-    return sum(input_list)
+        Args:
+            input_list: float numbers
+
+        Return:
+            Sum of the float numbers
+    """
+
+    result: float = 0
+
+    for x in input_list:
+        result += x
+
+    return result
