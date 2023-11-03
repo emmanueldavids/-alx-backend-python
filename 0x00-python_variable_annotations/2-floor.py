@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-
-import math
-
-
-""" Basic annotations - floor. """
+"""
+    Truncate float to integer
+"""
 
 
 def floor(n: float) -> int:
-    """ takes a float n as argument
-        and returns
-        the floor of the float.
     """
-    return math.floor(n)
+        Args:
+            n: float number
+
+        Return:
+            Float number truncated to floor
+    """
+
+    return int(n)
